@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.port || 5000;
 
 //connection db
-mongoose.connect(process.env.MONGO_URI, {
+connectionMongoDb(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log("MongoDB connected"))
