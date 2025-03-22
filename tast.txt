@@ -1,0 +1,7 @@
+REST api - JSON
+
+GET /users - List of all users
+GET /user/1 - Get the user of id 1
+GET /user/2 - Get the user of id 2
+
+POST /user -  update the user
